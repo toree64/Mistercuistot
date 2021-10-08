@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    font-family: "Montserrat";
+}
+
+
+body {
+    margin: 0 auto;
+}
+
+/*tete de page*/
+
+header.header {
+    display: flex;
+    align-items: center;
+    
+}
+
+header.header img {
+    width:110px;
+}
+
+
+
+.top-page {
+    padding: 25px;
+    height: 80vh;
+    background-size: cover;
+    background-image: url("../media/rostedfish.jpg");
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+
+.big-title {
+    font-weight: 100;
+    font-family: "Abril FatFace";
+    color: white;
+    font-size: 80px;
+
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+/*menu de navigation*/
+
+nav.nav {
+    display: flex; 
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color: white;
+    font-weight: bold;
+   
+}
+
+/* Milieu de la page */
+
+.midblocone {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    font-family: "montserrat";
+    border: 1px solid red;
+
+}
+
+.recetteone {
+    font-size: 32px;
+    color:green;
+    text-align:center;
+}
+
+.imgone {
+    width: 430px;
+    height: 400px;
+    margin-right: 20px;
+
+}
+
+.midbloctwo {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.recettetwo {
+    font-size: 32px;
+    color:green;
+    text-align:center;
+}
+
+.imgtwo {
+    width: 430px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.imgthree {
+    width: 430px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.midblocthree {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.recettethree {
+    font-size: 32px;
+    color:green;
+    text-align:center;
+
+}
+
+.middle-top {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    
+
+}
+
+.horaire {
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.horaire ul li {
+    margin-bottom: 1rem;
+}
+
+.valeur {
+    width: 50%;
+    margin-left: 350px;
+    margin-top: 100px;
+
+}
+
+.horairetitle {
+    text-align: center;
+    color: red;
+    font-size: 25px;
+
+}
+
+.footer {
+    display:flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:red;
+    color: white;
+    text-align: center;
+
+
+ }
+
+ .socials {
+     margin-left: 500px;
+     margin-top: 15px;  
+     align-content: space-between;
+
+
+ }
+
+ .adressmail {
+     display: flex;
+     margin-left: 20px;
+     font-weight: bold;
+ }
+
+ .mail {
+     margin-left: 300px;
+ }
+
+ .ri-facebook-box-fill {
+   font-size: 30px;
+ }
+
+ .ri-twitter-line {
+     font-size: 30px;
+ }
+
+ .ri-instagram-line {
+     font-size: 30px;
+ }
+
+
+ 
+
+
+
